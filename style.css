@@ -421,3 +421,23 @@ footer {
 
 
 }
+@media (max-width: 768px) {
+    
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .menu {
+        display: block;
+        text-align: center;
+    }
+
+}
