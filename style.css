@@ -421,23 +421,40 @@ footer {
 
 
 }
-@media (max-width: 768px) {
-    
-    body {
+@media (max-width: 480px){}
+@media (max-windth: 768px){}
+@media (max-width: 1024px){}
+@media (max-width: 768px){
+body {
         padding: 10px;
     }
 
     h1 {
-        font-size: 24px;
-    }
-
-    .container {
-        flex-direction: column;
-    }
-
-    .menu {
-        display: block;
+        font-size: 22px;
         text-align: center;
     }
 
+    p {
+        font-size: 14px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
 }
+
+    
